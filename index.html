@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Themed To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section> 
+        <h1 id="h1" >My Themed To-Do List</h1>
+        
+        <div>
+            <!-- dit is het tekstveld waar je taken kunt invoeren  -->
+            <input type="text" id="todo-input" placeholder="Add a new task...">
+            <!-- add button spreekt voor zich -->
+            <button id="add-task-btn">Add</button>
+        </div>
+
+        <!-- de knop die je in drukt wanneer je lijst gaat sorteren -->
+        <button id="sort" >Sort Tasks A-Z</button>
+
+        <!-- de ul die ik met javascript manipuleer -->
+        <ul id="todo-list">
+                <!-- li item taken komen hier -->
+        </ul>
+
+        <!-- Deze knoppen zijn gelinkt aan de javascript en switchen tussen themas -->
+        <div class="theme-switcher">
+            <button id="light-mode-btn">Light Mode</button>
+            <button id="dark-mode-btn">Dark Mode</button>
+            <button id="pink-mode-btn">Pink Mode</button>
+        </div>
+    </section>
+
+    <script src="java.js"></script>
+</body>
+</html>
